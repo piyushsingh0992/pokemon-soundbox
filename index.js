@@ -18,6 +18,7 @@ function clickHandler(event){
 
     //playing the desired audio for the button user clicked on
     var audiotag=document.querySelector(`audio[class=${audioClass}]`);
+    audiotag.currentTime = 0;
     audiotag.play();
 
     // adding playing class to enlarge the image 
