@@ -25,10 +25,17 @@ body {
   width: 100px;
   
 }
-
-
 .playing {
   transform: scale(2.1);
   box-shadow: 0 0 2rem #11FFEE;
+}
+
+
+//media tags for responsivness
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
 
