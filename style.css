@@ -33,7 +33,7 @@ body {
 /* media tags for responsivness */
 
 @media only screen and (max-width: 600px) {
-  .jiglipuff{
+  .hide{
     display:none;
   }
   body{
