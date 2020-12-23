@@ -33,6 +33,9 @@ body {
 /* media tags for responsivness */
 
 @media only screen and (max-width: 600px) {
+  .jiglipuff{
+    display:none;
+  }
   body{
     background-position: center;
   }
