@@ -33,7 +33,9 @@ body {
 /* media tags for responsivness */
 
 @media only screen and (max-width: 600px) {
- 
+  body{
+    background-position: center;
+  }
   .keys {
     display: grid;
     grid-template-columns:auto auto;
