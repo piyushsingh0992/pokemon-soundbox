@@ -22,8 +22,7 @@ body {
 
 .key img{
   height: 100px;
-  width: 100px;
-  
+  width: 100px; 
 }
 .playing {
   transform: scale(2.1);
@@ -34,15 +33,16 @@ body {
 /* media tags for responsivness */
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-image:url(resources/phoneBackground.jpg) ;
-  }
-
+ 
   .keys {
     display: grid;
     grid-template-columns:auto auto;
     grid-template-rows:auto auto auto auto auto auto;
-    
+  }
+
+  .key img{
+    height: 70px;
+    width: 70px; 
   }
   
 }
