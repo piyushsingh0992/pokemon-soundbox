@@ -21,6 +21,8 @@ function clickHandler(event){
     audiotag.currentTime = 0;
     audiotag.play();
 
+        
+
     // adding playing class to enlarge the image 
     event.target.classList.add("playing");
 
